@@ -1,3 +1,4 @@
+import { version } from '../package.json'
 import Compact from './components/Compact.vue'
 import Grayscale from './components/Grayscale.vue'
 import Material from './components/Material.vue'
@@ -15,7 +16,7 @@ import Saturation from './components/common/Saturation.vue'
 import ColorMixin from './mixin/color.js'
 
 const VueColor = {
-  version: '3.0.0',
+  version: version,
   Compact,
   Grayscale,
   Twitter,

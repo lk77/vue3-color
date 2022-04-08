@@ -68,15 +68,7 @@
 </template>
 
 <script>
-import material from './components/Material.vue'
-import compact from './components/Compact.vue'
-import grayscale from './components/Grayscale.vue'
-import swatches from './components/Swatches.vue'
-import slider from './components/Slider.vue'
-import sketch from './components/Sketch.vue'
-import chrome from './components/Chrome.vue'
-import photoshop from './components/Photoshop.vue'
-import twitter from './components/Twitter.vue'
+import VueColor from './build.js'
 
 const defaultProps = {
   hex: '#194d33e6',
@@ -103,15 +95,15 @@ const defaultProps = {
 
 export default {
   components: {
-    'material-picker': material,
-    'compact-picker': compact,
-    'grayscale-picker': grayscale,
-    'swatches-picker': swatches,
-    'slider-picker': slider,
-    'sketch-picker': sketch,
-    'chrome-picker': chrome,
-    'photoshop-picker': photoshop,
-    'twitter-picker': twitter
+    'material-picker': VueColor.Material,
+    'compact-picker': VueColor.Compact,
+    'grayscale-picker': VueColor.Grayscale,
+    'swatches-picker': VueColor.Swatches,
+    'slider-picker': VueColor.Slider,
+    'sketch-picker': VueColor.Sketch,
+    'chrome-picker': VueColor.Chrome,
+    'photoshop-picker': VueColor.Photoshop,
+    'twitter-picker': VueColor.Twitter
   },
   data () {
     return {
