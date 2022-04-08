@@ -146,7 +146,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 .vc-hue {
   position: absolute;
   top: 0px;

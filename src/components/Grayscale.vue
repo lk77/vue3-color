@@ -58,7 +58,7 @@ export default {
 
 </script>
 
-<style>
+<style lang="css">
 .vc-grayscale {
   width: 125px;
   border-radius: 2px;

@@ -54,7 +54,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 .vc-material {
   width: 98px;
   height: 98px;

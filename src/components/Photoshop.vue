@@ -169,7 +169,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 .vc-photoshop {
   background: #DCDCDC;
   border-radius: 4px;

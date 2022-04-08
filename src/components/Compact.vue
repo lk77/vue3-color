@@ -62,7 +62,7 @@ export default {
 
 </script>
 
-<style>
+<style lang="css">
 .vc-compact {
   padding-top: 5px;
   padding-left: 5px;

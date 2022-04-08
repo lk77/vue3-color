@@ -147,7 +147,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 .vc-sketch {
   position: relative;
   width: 200px;

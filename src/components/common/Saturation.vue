@@ -92,7 +92,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 .vc-saturation,
 .vc-saturation--white,
 .vc-saturation--black {

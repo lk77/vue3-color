@@ -87,7 +87,7 @@ export default {
 
 </script>
 
-<style>
+<style lang="css">
 .vc-alpha {
   position: absolute;
   top: 0px;

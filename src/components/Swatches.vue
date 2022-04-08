@@ -81,7 +81,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 .vc-swatches {
   width: 320px;
   height: 240px;

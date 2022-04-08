@@ -81,7 +81,7 @@ function getCheckboard (c1, c2, size) {
 
 </script>
 
-<style>
+<style lang="css">
 .vc-checkerboard {
   position: absolute;
   top: 0px;

@@ -177,7 +177,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 .vc-chrome {
   background: #fff;
   border-radius: 2px;

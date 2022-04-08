@@ -88,7 +88,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 .vc-slider {
   position: relative;
   width: 410px;

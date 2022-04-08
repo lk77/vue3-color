@@ -99,7 +99,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css">
 .vc-editable-input {
   position: relative;
 }
