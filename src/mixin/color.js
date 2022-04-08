@@ -71,7 +71,7 @@ export default {
       },
       set (newVal) {
         this.val = newVal
-        this.$emit('input', newVal)
+        this.$emit('update:modelValue', newVal)
       }
     }
   },
