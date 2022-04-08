@@ -1,4 +1,4 @@
-# vue3-color-picker
+# vue3-color
 
 [![npm](https://img.shields.io/npm/v/@lk77/vue3-color.svg)](https://www.npmjs.com/package/@lk77/vue3-color)
 
