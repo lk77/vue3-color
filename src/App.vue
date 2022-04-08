@@ -15,7 +15,7 @@
         </div>
         <div class="header-bg" :style="{'background-color': bgc}"></div>
         <div class="demo-item">
-          <chrome-picker :modelValue="colors" @update:modelValue="updateValue"></chrome-picker>
+          <chrome-picker :modelValue="colors" @update:model-value="updateValue"></chrome-picker>
           <h2>Chrome</h2>
         </div>
       </div>
@@ -48,7 +48,7 @@
           <h2>Compact</h2>
           <br>
           <br>
-          <grayscale-picker :modelValue="colors" @update:modelValue="updateValue"></grayscale-picker>
+          <grayscale-picker :modelValue="colors" @update:model-value="updateValue"></grayscale-picker>
           <h2>Grayscale</h2>
         </div>
         <div class="demo-item">
@@ -58,7 +58,7 @@
       </div>
       <div class="demo-list">
         <div class="demo-item">
-          <twitter-picker :modelValue="colors" @update:modelValue="updateValue"></twitter-picker>
+          <twitter-picker :modelValue="colors" @update:model-value="updateValue"></twitter-picker>
           <h2>Twitter</h2>
         </div>
       </div>
