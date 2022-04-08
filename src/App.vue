@@ -68,7 +68,8 @@
 </template>
 
 <script>
-import VueColor from './build.js'
+// we use both import methods
+import VueColor, { Material, Compact, Grayscale, Swatches, Slider, Sketch, Chrome } from './build.js'
 
 const defaultProps = {
   hex: '#194d33e6',
@@ -95,13 +96,13 @@ const defaultProps = {
 
 export default {
   components: {
-    'material-picker': VueColor.Material,
-    'compact-picker': VueColor.Compact,
-    'grayscale-picker': VueColor.Grayscale,
-    'swatches-picker': VueColor.Swatches,
-    'slider-picker': VueColor.Slider,
-    'sketch-picker': VueColor.Sketch,
-    'chrome-picker': VueColor.Chrome,
+    'material-picker': Material,
+    'compact-picker': Compact,
+    'grayscale-picker': Grayscale,
+    'swatches-picker': Swatches,
+    'slider-picker': Slider,
+    'sketch-picker': Sketch,
+    'chrome-picker': Chrome,
     'photoshop-picker': VueColor.Photoshop,
     'twitter-picker': VueColor.Twitter
   },

@@ -18,7 +18,7 @@
     "build": "vue-cli-service build --target lib --name vue3-color src/build.js",
     "gh:build": "vue-cli-service build --dest='dist/vue3-color'",
     "lint": "vue-cli-service lint",
-    "patch": "npm run build && npm version patch && npm publish && git push --tags"
+    "patch": "npm version patch && npm run build && npm publish && git push --follow-tags"
   },
   "homepage": "https://lk77.github.io/vue3-color/",
   "repository": {

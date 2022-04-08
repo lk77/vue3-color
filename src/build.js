@@ -15,8 +15,10 @@ import Hue from './components/common/Hue.vue'
 import Saturation from './components/common/Saturation.vue'
 import ColorMixin from './mixin/color.js'
 
+const version = pkg.version
+
 const VueColor = {
-  version: pkg.version,
+  version,
   Compact,
   Grayscale,
   Twitter,
@@ -39,3 +41,22 @@ if (!(typeof process === 'object' && String(process) === '[object process]')) {
 }
 
 export default VueColor
+
+export {
+  version,
+  Compact,
+  Grayscale,
+  Twitter,
+  Material,
+  Slider,
+  Swatches,
+  Photoshop,
+  Sketch,
+  Chrome,
+  Alpha,
+  Checkboard,
+  EditableInput,
+  Hue,
+  Saturation,
+  ColorMixin
+}
