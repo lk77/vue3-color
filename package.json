@@ -9,6 +9,8 @@
     "vue3"
   ],
   "main": "dist/vue3-color.common.js",
+  "unpkg": "dist/vue3-color.umd.min.js",
+  "jsdelivr": "dist/vue3-color.umd.min.js",
   "scripts": {
     "dev": "npm run serve",
     "prod": "npm run build && npm run gh:build",
@@ -16,8 +18,9 @@
     "build": "vue-cli-service build --target lib --name vue3-color src/build.js",
     "gh:build": "vue-cli-service build --dest='dist/vue3-color'",
     "lint": "vue-cli-service lint",
-    "patch": "npm run build && npm version patch && npm publish && git push"
+    "patch": "npm run build && npm version patch && npm publish && git push --tags"
   },
+  "homepage": "https://lk77.github.io/vue3-color/",
   "repository": {
     "type": "git",
     "url": "https://github.com/lk77/vue3-color"
