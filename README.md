@@ -1,12 +1,12 @@
 # vue3-color-picker
 
-[![npm](https://img.shields.io/npm/v/vue3-color-picker.svg)](https://www.npmjs.com/package/vue3-color-picker)
+[![npm](https://img.shields.io/npm/v/@lk77/vue3-color.svg)](https://www.npmjs.com/package/@lk77/vue3-color)
 
 Color Pickers for Sketch, Photoshop, Chrome & more with Vue 3.
 
 This package bring Vue 3 support to original package : [vue-color](https://www.npmjs.com/package/vue-color)
 
-## [Live demo](http://xiaokaike.github.io/vue-color/)
+## [Live demo](https://lk77.github.io/vue3-color/)
 
 ![intro](./src/assets/intro.png)
 
@@ -14,12 +14,12 @@ This package bring Vue 3 support to original package : [vue-color](https://www.n
 
 ### NPM
 ```bash
-$ npm install vue3-color-picker
+$ npm install @lk77/vue3-color
 ```
 
 ### CommonJS
 ```js
-var Photoshop = require('vue3-color/src/Photoshop.vue');
+var Photoshop = require('@lk77/vue3-color/src/Photoshop.vue');
 
 Vue.createApp({
   components: {
@@ -30,7 +30,7 @@ Vue.createApp({
 
 ### ES6
 ```js
-import { Photoshop } from 'vue3-color-picker'
+import { Photoshop } from '@lk77/vue3-color'
 
 Vue.createApp({
   components: {
@@ -44,7 +44,7 @@ The `dist` folder contains `vue3-color.common.js` with all components exported i
 
 ```html
 <script src="path/to/vue3.js"></script>
-<script src="path/to/vue3-color-picker.common.js"></script>
+<script src="path/to/vue3-color.common.js"></script>
 <script>
   var Photoshop = VueColor.Photoshop
 </script>
@@ -139,4 +139,4 @@ In some cases you can give the component a predefined set of colors with the pro
 
 ## License
 
-vue-color is licensed under [The MIT License](LICENSE).
+@lk77/vue3-color is licensed under [The MIT License](LICENSE).

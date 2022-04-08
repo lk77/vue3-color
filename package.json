@@ -1,5 +1,5 @@
 {
-  "name": "vue3-color-picker",
+  "name": "@lk77/vue3-color",
   "version": "3.0.0",
   "description": "Color of Vue 3 Components",
   "keywords": [
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lk77/vue3-color-picker"
+    "url": "https://github.com/lk77/vue3-color"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
