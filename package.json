@@ -1,14 +1,25 @@
 {
   "name": "vue3-color-picker",
   "version": "3.0.0",
-  "private": true,
+  "description": "Color of Vue 3 Components",
+  "keywords": [
+    "color",
+    "vuejs",
+    "vuejs3",
+    "vue3"
+  ],
+  "main": "dist/vue3-color-picker.common.js",
   "scripts": {
     "dev": "npm run serve",
     "prod": "npm run build && npm run gh:build",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue3-color src/build.js",
-    "gh:build": "vue-cli-service build --dest='dist/vue3-color'",
+    "build": "vue-cli-service build --target lib --name vue3-color-picker src/build.js",
+    "gh:build": "vue-cli-service build --dest='dist/vue3-color-picker'",
     "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lk77/vue3-color-picker"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -28,5 +39,6 @@
     "material-colors": "^1.2.6",
     "tinycolor2": "^1.4.2",
     "vue": "^3.2.31"
-  }
+  },
+  "license": "MIT"
 }
