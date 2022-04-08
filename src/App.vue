@@ -5,7 +5,7 @@
       <div class="header">
         <div class="intro-wrap">
           <div class="intro">
-            <h1>Vue3-color-picker</h1>
+            <h1>Vue3-color</h1>
             <p role="presentation">A Collection of Color Pickers from Sketch, Photoshop, Chrome, Github, Twitter, Material Design & more</p>
             <br/>
             <p role="presentation">This package bring Vue 3 support to original package : </p>

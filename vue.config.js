@@ -3,5 +3,8 @@ module.exports = defineConfig({
   transpileDependencies: true,
   publicPath: process.env.NODE_ENV === 'production'
     ? '/vue3-color/'
-    : '/'
+    : '/',
+  css: {
+    extract: false
+  }
 })
